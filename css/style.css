@@ -1,0 +1,20 @@
+p {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+.paragraph{font-size: 20px;
+border-style: double;
+border-color:  red;
+border-radius: 10px;
+text-align: justify;
+padding: 7px;
+
+}
+
+.title { font-size: 40px;
+color: #00008B;
+font-style: italic;
+background-color: #00FFFF;
+border-radius: 10px;
+border-style: ridge;
+border-color: cyan;
+text-align: center;
+}
