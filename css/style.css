@@ -1,10 +1,24 @@
-p {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+p {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-body{background-color: #F0FFFF;}
-
-.paragraph{font-size: 20px;
+font-size: 20px;
 text-align: justify;
 padding: 7px;
+margin: 7px;
+}
+
+body{background-color: #7EB6FF;}
+
+.paragraph{
+}
+
+.subtitle{
+  font-size: 30px;
+  border-radius: 3px;
+  border-style: dotted;
+  border-color: white;
+  background: #82CFFD;
+  color: black;
+  text-align: center;
 }
 
 .hyperlink{font-size: 20px;
@@ -13,18 +27,25 @@ color:  blue;}
 
 .examHeader{font-size: 20px;
 text-align: center;
-padding: 7px;
 border-style: double;
 border-color: darkBlue;
 }
 
-.title { font-size: 40px;
-color: #00008B;
+.activities {
+  border-style: solid;
+  border-radius: 3px;
+  border-color: #fff;
+}
+
+.title {
+margin: 7px;
+font-size: 40px;
+color: #fff;
 font-style: italic;
-background-color: #00FFFF;
+background-color: #0D4F8B;
 border-radius: 10px;
 border-style: ridge;
-border-color: cyan;
+border-color: black;
 text-align: center;
 }
 

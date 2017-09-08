@@ -12,13 +12,13 @@
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #ff1b1e;
-  color: #fefefe; }
+  background-color: #0D4F8B;
+  color: #fff; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #ff1b1e;
-    color: #fefefe; }
+    background-color: lighten(#0D4F8B, 50%);
+    color: lighten(#0D4F8B, 50%); }
   .button.tiny {
     font-size: 0.6rem; }
   .button.small {
@@ -284,3 +284,20 @@ a.button:hover, a.button:focus {
   .slider[disabled] {
     opacity: 0.25;
     cursor: not-allowed; }
+
+.menu {
+  padding: 7px;
+  margin: 7px;
+  background: #0D4F8B;}
+
+  li {
+    background: #0D4F8B;
+
+    &:hover {
+      background: lighten(#0D4F8B, 20%);
+    }
+  }
+
+  a {color: #fff;}
+
+}
