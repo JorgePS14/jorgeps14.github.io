@@ -1,0 +1,190 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Persona</title>
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  </head>
+  <body>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+        <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+          <div class="row column">
+            <br>
+            <img class="thumbnail" src="https://i.pinimg.com/originals/8a/79/50/8a79507d3e6ba241d6783d17e72b1c25.jpg">
+            <h5>Valeria Villalobos</h5>
+            <p>Joven de 20 años de edad, estudiante de LDI. Habita en la región de
+            Zapopan. Vive una vida relativamente tranquila, a excepción de la ocasional
+            fiesta o reunión con sus amigos. Escogió su carrera porque se siente conectada
+            con su lado artístico y desea poder comunicarse a través del arte.</p>
+          </div>
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+          <div class="title-bar hide-for-large">
+            <div class="title-bar-left">
+              <button class="menu-icon" type="button" data-open="my-info"></button>
+              <span class="title-bar-title">Valeria Villalobos</span>
+            </div>
+          </div>
+
+          <div class="callout primary">
+            <div class="row column">
+              <h1>Perfil general:</h1>
+              <p class="lead">Valeria es una persona sumamente abierta a nuevas experiencias,
+              sabe apreciar el arte, la emoción, la aventura, enre otras cosas. Es un poco
+              desordenada con sus cosas, pero es altamente organizada cuando se trata de conseguir
+              lo que quiere. Puede parecer un poco necia y terca cuando se trata de ciertos temas,
+              pero por lo general se comporta de manera espontánea dependiendo de lo que la inspire
+              en ese preciso momento. Disfruta ayudar a los demás cuando puede, aunque eso signifique
+              que puede salir perjudicada de una u otra manera. Aunque confía fácilmente en los demás
+              no significa que sea inocente, sabe perfectamente lo que hace y por qué lo hace.
+              Es sensible y emocional por naturaleza, y puede exaltarse por cosas que parecen triviales,
+              pero es particularmente buena controlando sus sentimientos en la mayoría de los casos.</p>
+            </div>
+          </div>
+
+          <div class="row small-up-2 medium-up-3 large-up-4">
+            <div class="column" id="imgArch">
+              <img class="thumbnail" src="http://pm1.narvii.com/6531/9e45281342c9354d38bbb935b1090acee2168d1a_hq.jpg">
+              <h5>Arquetipo</h5>
+              <p id="archetype">ENFP - Activista: Es un espíritu verdaderamente libre. A
+              menudo son el alma de la fiesta, pero tienen menos interés en la emoción pura
+              y el placer del momento que en disfrutar de las relaciones sociales y
+              emocionales con los demás. Encantador, independiente, enérgico y compasivo.
+              Para más información, visita el siguiente link:
+              <a href="https://www.16personalities.com/es/personalidad-enfp">personalidad ENFP</a></p>
+            </div>
+
+            <script>
+              $( function() {
+                $("#archetype").hide();
+
+                $("#imgArch").on('mouseover', function() {
+
+                  $("#archetype").slideDown(500);
+
+                });
+
+                $("#imgArch").on('mouseleave', function() {
+
+                  $("#archetype").slideUp(500);
+
+                });
+              });
+            </script>
+
+            <div class="column" id="imgTech">
+              <img class="thumbnail" src="https://www.titancorpvn.com/wp-content/uploads/2015/11/qa1.png">
+              <h5>Tecnología</h5>
+              <p id="technology">Usuario con experiencia promedio con la tecnología. Considerando que
+              vivimos en la era digital, Valeria sabe encontrarse y manejar básicamente cualquier
+              aparato electrónico que se asemeje a alguno que haya utilizado antes, como smartphones o
+              computadoras. Valeria normalmente utiliza macOS y iOS, aunque ocasionalmente en caso de
+              necesitarlo utiliza Windows y Android.</p>
+            </div>
+
+            <script>
+              $( function() {
+                $("#technology").hide();
+
+                $("#imgTech").on('mouseover', function() {
+
+                  $("#technology").slideDown(500);
+
+                });
+
+                $("#imgTech").on('mouseleave', function() {
+
+                  $("#technology").slideUp(500);
+
+                });
+              });
+            </script>
+
+            <div class="column" id="imgRef">
+              <img class="thumbnail" src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5786/5786337_sd.jpg;maxHeight=640;maxWidth=550">
+              <h5>Referencias e inspiraciones</h5>
+              <p id="references"> REFERENCIAS E INSPIRACIONES </p>
+            </div>
+
+            <script>
+              $( function() {
+                $("#references").hide();
+
+                $("#imgRef").on('mouseover', function() {
+
+                  $("#references").slideDown(500);
+
+                });
+
+                $("#imgRef").on('mouseleave', function() {
+
+                  $("#references").slideUp(500);
+
+                });
+              });
+            </script>
+
+            <div class="column" id="imgRec">
+              <img class="thumbnail" src="https://image-store.slidesharecdn.com/7ae20896-a565-41d0-84ec-09bb40a9609d-large.jpeg">
+              <h5>Recomendaciones</h5>
+              <p id="recommendations">Evitar tecnicismos y procesos complejos, el ususario
+              desea una aplicación fácil de utilizar y comprender. Debes hacer las cosas visualmente
+              placenteras, después de todo, el usuario se inclina hacia su lado artístico, y por
+              consiguiente está mucho más agusto cuando las cosas son estéticas. Simplificar todos
+              los procesos lo más posible, el usuario no busca perder tiempo porque ya lleva una agenda
+              apretada. En general, buscamos una aplicación con interfaz de usuario intuitiva, fácil y
+              placentera de ver. Con un método fácil y eficiente para buscar y seleccionar productos.
+              Un sistema que te recomiende cosas que hayas utilizado anteriormente en caso de necesitarlas
+              de nuevo.</p>
+            </div>
+
+            <script>
+              $( function() {
+                $("#recommendations").hide();
+
+                $("#imgRec").on('mouseover', function() {
+
+                  $("#recommendations").slideDown(500);
+
+                });
+
+                $("#imgRec").on('mouseleave', function() {
+
+                  $("#recommendations").slideUp(500);
+
+                });
+              });
+            </script>
+
+          </div>
+
+          <hr>
+
+          <div class="row column text-center">
+              <h3>Contáctanos</h3>
+              <p> Javier Emiliano Escobedo - A01350928@itesm.mx </p>
+              <p> Jorge Pietra Santa - A00226522@itesm.mx</p>
+              <ul class="menu">
+                <li><a href="https://twitter.com/PietraSanta14">via Twitter</a></li>
+                <li><a href="https://www.facebook.com/PietraSanta14">via Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
